@@ -1,0 +1,21 @@
+@media(max-width: 767px){
+	.experince-tab .row:nth-child(odd) .card:before,.education-tab .row:nth-child(odd) .card:before{
+		display: none;
+	}
+	.experince-tab .row:nth-child(even) .card:before, .education-tab .row:nth-child(even) .card:before{
+		display: none;
+	}
+	.experince-tab:after{
+		display: none;
+	}
+
+	.experince-tab .row:before{
+	display: none;
+	}
+	.education-tab:after{
+	display: none;
+}
+.education-tab .row:before{
+	display: none;
+}
+}
